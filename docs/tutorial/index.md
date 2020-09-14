@@ -1,39 +1,39 @@
 ---
-title: Gatsby.js Tutorials
+title: Gatsby.js آموزش های
 disableTableOfContents: true
 ---
 
-Welcome to Gatsby! We’re glad you’re here. The goal of this tutorial is to guide you through setting up and deploying your first Gatsby site using a starter template. As we walk through that process, we’ll introduce some more general web development topics, and go over the underlying structure of a Gatsby site.
+به گتسبی خوش آمدید! از حضورتان خرسندیم. هدف از این آموزش راهنمایی شما در تنظیم و راه اندازی اولین سایتتان با استفاده از گتسبی، با استفاده از الگوی شروع سایت گتسبی می باشد. در حین اینکه در این راه هدایتتان میکنیم، شما را با موارد کلی دیگری در رابطه با مقوله توسعه وب آشنا خواهیم کرد و در ساختار درونی سایت گتسبی کنکاش میکنیم.
 
-> The full tutorial is intended to be as accessible as possible to people without much web development experience (yet!) — no need to be an expert. If you prefer to jump straight to code, feel free to skip the step-by-step tutorial and see the [quick start](/docs/quick-start/) page.
+> راهنمای جامع قرار است در دسترس افرادی که آنچنان اطلاعات زیادی از طراحی وب ندارند قرار داده شود (بزودی!) — نیازی نیست حرفه ای باشید. اگر ترجیح می دهید مستقیم سراغ کد بروید، مختارید از آموزش قدم به قدم صرف نظر کنید و صفحه ی [شروع سریع](/docs/quick-start/) را ببینید.
 
-## Gatsby fundamentals
+## مقدمات گتسبی
 
-0.  [Set up your development environment](/tutorial/part-zero/): We'll introduce you to core technologies that power Gatsby, and guide you through setting up your development environment.
-1.  [Get to know Gatsby building blocks](/tutorial/part-one/): Starting new projects, developing, and deploying sites.
-1.  [Introduction to using CSS in Gatsby](/tutorial/part-two/): Explore libraries like Typography.js and CSS Modules.
-1.  [Building nested layouts in Gatsby](/tutorial/part-three/): Layouts are sections of your site that are reused across multiple pages like headers and footers.
+1.  [راه اندازی محیط توسعه](/tutorial/part-zero/): شما را با فناوری های اصلی گتسبی آشنا میکنیم، و در راه اندازی محیط توسعه برای خود یاری میکنیم.
+2.  [آشنایی با واحد های ساختاری گتسبی](/tutorial/part-one/): شروع یک پروژه جدید، توسعه و راه اندازی سایت.
+3.  [معرفی استفاده CSS در گتسبی](/tutorial/part-two/): جست و جو در کتابخانه هایی نظیر Typography.js و CSS Modules.
+4.  [ساخت چیدمان تو در تو در گستبی](/tutorial/part-three/): Layout ها بخش هایی از سایت شما اند که مورد بازاستفاده میان صفحات مختلف سایت شما هستند، نظیر headerها و footerها.
 
-## Intermediate tutorials
+## آموزش متوسطه
 
-In these intermediate tutorials, you'll learn how to pull data from almost anywhere into your Gatsby site with GraphQL.
+در این آموزش متوسطه، شما یاد میگیرید چطور داده مورد نظر را از هرجا در سایت گستبی خود  با استفاده از GraphQL دریافت کنید.
 
-4.  [Querying for data in a blog](/tutorial/part-four/): Create a blog and use a GraphQL query to pull your site title into the blog header.
-5.  [Source plugins and rendering queried data](/tutorial/part-five/): Use a source plugin to pull Markdown blog posts into your site and create an index page with a list of blog posts.
-6.  [Transformer plugins](/tutorial/part-six/): Use a transformer plugin to transform your Markdown blog posts into a form the blog can render.
-7.  [Programmatically create pages from data](/tutorial/part-seven/): Learn how to programmatically create a set of pages for your blog posts.
-8.  [Preparing a site to go live](/tutorial/part-eight/): Learn how to audit your site for performance and best practices for accessibility, SEO, and more.
+1.  [فراخوانی داده در بلاگ](/tutorial/part-four/): یک بلاگ بسازید و با استفاده از کوئری GraphQL داده خود را در Header بلاگ دریافت کنید.
+2.  [افزونه های منبع و تفسیر داده فراخوانی شده](/tutorial/part-five/): از یک افزونه ی منبع استفاده کنید تا پست های بلاگ مارک داون خود را در سایت خود فراخوانی کنید و صفحه index خود را توسط لیستی از پست های بلاگ بسازید.
+3.  [افزونه ها مبدل](/tutorial/part-six/): با استفاده از افزونه های مبدل پست های بلاگ مارک داون خود را به شکلی از بلاگ تبدیل کنید که قابل رندر باشند.
+4.  [ساخت صفحه از داده بصورت برنامه نویسی](/tutorial/part-seven/): یاد بگیرید که چگونه بصورت برنامه نویسی یک دسته از صفحات را برای پست های سایت خود ایجاد کنید.
+5.  [آماده سازی سایت برای اجرای فعال](/tutorial/part-eight/): یاد بگیرید که چگونه سایت خود را برای کارایی و best practices برای دسترسی، SEO و غیره بررسی گنید.
 
-## Theme tutorials
+## آموزش قالب
 
-Gatsby themes abstract all of your default configuration (shared functionality, data sourcing, design) out of your site and into an installable package.
+قالب های گتسبی چکیده ای از تمام پیش فرض های مورد نیازتان را گرد هم می آورد. (فانکشنالیتی مشترک، مبنع داده، طراحی) بیرون از سایت شما و داخل بسته های قابل نصب.
 
-This means that the configuration and functionality aren’t directly written into your project, but rather versioned, centrally managed, and installed as a dependency. You can seamlessly update a theme, compose themes together, and even swap out one compatible theme for another.
+این بدان معناست که تنظیمات و فانکشنالیتی ها بصورت مستقیم بر روی پروژه شما نوشته نمی شوند، ولی ترجیحا ورژن شده، مدیریت شده بصورت متمرکز و نصب شده بصورت بسته هستند. شما می توانید بصورت یکپارجه قالبی را به روز رسانی کنید، قالب ها را با هم بسازید و حتی قالبی را بدلیل انطباق با قالب دیگری معاوضه کنید.
 
-Learn more about using and building themes with the [Gatsby theme tutorials](/tutorial/theme-tutorials/).
+درباره ی استفاده و ساخت قالب ها بیشتر بدانید با [آموزش های قالب گتسبی](/tutorial/theme-tutorials/).
 
 ## Additional tutorials
 
-There are many use cases for Gatsby, some of which aren't covered in the first set of tutorials to keep you focused while learning. Gatsby's Additional Tutorials section is a collection of resources showing how to complete even more Gatsby tasks step-by-step, such as using source plugins for images and CMS content.
+استفاده های زیادی برای گتسبی وجود دارد، که برخی در اولین آموزش ها قرار داده نشده تا شما را در حین یادگیری متمرکز نگه دارد. بخش آموزش های فرعی گتسبی مجموعه ای از بهترین منابع است که نشان می دهد چگونه قدم به قدم کار های بیشتری با گتسبی می توان انجام داد، نظیر افزونه های منبع برای تصاویر و سیستم مدیریت محتوا (CMS).
 
-Go deeper with [additional Gatsby tutorials](/tutorial/additional-tutorials/).
+بیشتر بدانید با [آموزش های فرعی گتسبی](/tutorial/additional-tutorials/).
